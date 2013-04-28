@@ -1,0 +1,11 @@
+{"ts":1366411227529,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<p id=\"notice\"><%= notice %></p>\n\n<p>\n  <b>Name:</b>\n  <%= @status.name %>\n</p>\n\n<p>\n  <b>Content:</b>\n  <%= @status.content %>\n</p>\n\n\n<%= link_to 'Edit', edit_status_path(@status) %> |\n<%= link_to 'Back', statuses_path %>\n"]],"start1":0,"start2":0,"length1":0,"length2":223}]],"length":223}
+{"contributors":[],"silentsave":false,"ts":1366411248855,"patch":[[{"diffs":[[0,">\n  "],[-1,"<%= @status.name %>"],[0,"\n</p"]],"start1":51,"start2":51,"length1":27,"length2":8}]],"length":204,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1367088813238,"patch":[[{"diffs":[[0,":</b>\n  "],[1,"<% status.user.first_name %>"],[0,"\n</p>\n\n<"]],"start1":47,"start2":47,"length1":16,"length2":44}]],"length":232,"saved":false}
+{"ts":1367088969163,"patch":[[{"diffs":[[0,"b>\n  <% "],[1,"@"],[0,"status.u"]],"start1":50,"start2":50,"length1":16,"length2":17}]],"length":233,"saved":false}
+{"ts":1367089051242,"patch":[[{"diffs":[[0,"ser."],[-1,"first_"],[0,"name"]],"start1":67,"start2":67,"length1":14,"length2":8}]],"length":227,"saved":false}
+{"ts":1367089064705,"patch":[[{"diffs":[[0,"us.user."],[1,"first_"],[0,"name %>\n"]],"start1":63,"start2":63,"length1":16,"length2":22}]],"length":233,"saved":false}
+{"ts":1367089144142,"patch":[[{"diffs":[[0,"/b>\n  <%"],[1,"="],[0," @status"]],"start1":49,"start2":49,"length1":16,"length2":17}]],"length":234,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1367095099205,"patch":[[{"diffs":[[0,"\n  <"],[-1,"%= @status.user.first_name %"],[1,"strong> </strong"],[0,">\n</"]],"start1":52,"start2":52,"length1":36,"length2":24}]],"length":222,"saved":false}
+{"ts":1367095675713,"patch":[[{"diffs":[[0,"strong> "],[1,"<%= @status.user.first_name %>"],[0,"</strong"]],"start1":56,"start2":56,"length1":16,"length2":46}]],"length":252,"saved":false}
+{"ts":1367096439267,"patch":[[{"diffs":[[0,"_name %>"],[1," <%= @status.user.last_name %>"],[0,"</strong"]],"start1":86,"start2":86,"length1":16,"length2":46}]],"length":282,"saved":false}
+{"ts":1367096679475,"patch":[[{"diffs":[[0,"er.f"],[-1,"irst_name %> <%= @status.user.last"],[1,"ull"],[0,"_name %>"],[1," "],[0,"</st"]],"start1":78,"start2":78,"length1":50,"length2":20}]],"length":252,"saved":false}
